@@ -1,4 +1,4 @@
-The Thermostat can be controlled locally by sending commands via UDP port 8899 to it's LAN ip address, the API including an example Linux command that can be used to control the thermostat can be found below:
+The Thermostat can be controlled locally by sending commands via UDP port 8899 to the thermostats LAN ip address, the API including an example Linux command that can be used to control the thermostat can be found below:
 
 Simple linux terminal command to control thermostat (example):
 echo "{"equip_mode":"3"}" | timeout 3 nc -u 192.168.0.77 8899
