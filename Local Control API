@@ -1,0 +1,33 @@
+The Thermostat can be controlled locally by sending commands via UDP to it's LAN ip address, the API including an example Linux command that can be used to control the thermostat can be found below:
+
+Simple linux terminal command to control thermostat (example):
+echo "{"equip_mode":"3"}" | timeout 3 nc -u 192.168.0.77 8899
+
+Power Modes:
+Off = {"equip_mode":"0"}
+Heat = {"equip_mode":"1"}
+Cool = {"equip_mode":"2"}
+Auto = {"equip_mode":"3"}
+
+Fan Modes:
+Auto = {"fan_mod":0}
+Continuous = {"fan_mod":1}
+
+Fan Speed
+Low = {"fan_speed":"1"}
+Medium = {"fan_speed":"2"}
+High = {"fan_speed":"3"}
+Auto = {"fan_speed":"4"}
+
+Set Temperature:
+{"prog_hold_value":"2","temp_cool":"23.0","temp_heat":"21.0"}
+
+Zones:
+Enable only zone 1 = {"zone_pilot":"1"}
+Enable only zone 2 = {"zone_pilot":"2"}
+Enable zones 1 and 2 = {"zone_pilot":"3"}
+
+Zone Temperature Sensors:
+Use temperature sensor from zone 1 = {"zone_partion":"1"}
+Use temperature sensor from zone 2 = {"zone_partion":"2"}
+Use temperature sensors from zones 1 and 2 = {"zone_partion":"3"}
