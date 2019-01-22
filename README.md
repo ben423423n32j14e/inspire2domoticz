@@ -33,3 +33,7 @@ A Domoticz plugin to control the Smart Temp SMT-775 Inspire Thermostat
 It was nessesary to combine the cool and heat setpoints into a single temperature with a "Drift" allownace in order to accomodate home automation appliaces such as Amazon Alexa, eg: "Alexa set the thermostat to 22", the plugin takes care of setting the thermostat to heat at 23 degrees and cool at 21 degrees.
 
 Note that Alexa has been tested and I can confirm that it is working nicely in my environment. Note that a seperate Domoticz plugin is required for Alexa support.
+
+<B>Todo list:</B>
+* Add zone temperature sensor readings
+* Sync Domoticz device status with changes made on the SMT-775 physical screen
