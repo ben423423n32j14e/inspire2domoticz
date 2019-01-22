@@ -21,7 +21,7 @@ A Domoticz plugin to control the Smart Temp SMT-775 Inspire Thermostat
 <BR>
 <BR>
 
-Configuring the plugin:
+<B>Configuring the plugin:</B>
 * "Domoticz Lan IP" is the static IP address you have given your computer that is running Domoticz
 * "SMT-775 Lan IP" is the static IP address you have given the SMT-775 either by setting a static IP on the unit or by using the DHCP settings on your router.
 * "Number of Zones" is how many seperate air conditioning zones you have (you can find this out by looking in Zones on the SMT-775 physical screen.
