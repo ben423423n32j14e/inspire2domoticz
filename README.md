@@ -17,6 +17,6 @@ A Domoticz plugin to control the Smart Temp SMT-775 Inspire Thermostat
 4) Create a new folder inside the plugins folder called smt775 then download the plugin.py file and place it inside.
 <BR>
 <BR>
-5) Start or restart Domoticz if you already have it running, go to "Setup > Hardware", see will find "Smart Temp SMT-775 Thermostat" in the "Type:" dropdown box at the bottom of the page. Select it and fill out the fields to configure.
+5) Start or restart Domoticz if you already have it running, go to "Setup > Hardware", you should see "Smart Temp SMT-775 Thermostat" in the "Type:" dropdown box at the bottom of the page. Select it and fill out the fields to configure.
 <BR>
 <BR>
