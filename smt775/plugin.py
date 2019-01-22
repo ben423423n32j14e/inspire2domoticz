@@ -20,7 +20,7 @@
 """
 import Domoticz
 import sys
-#import socket
+import socket
 
 class BasePlugin:
     enabled = False
