@@ -1,6 +1,6 @@
 # inspire2domoticz
 A Domoticz plugin to control the Smart Temp SMT-775 Inspire Thermostat
-
+<BR>
 WARNING <<<<<<<, the company appears to have made a change to the thermostats software. Attempts to work with the company to find a way to continue accessing the thermostat have been unsuccessful.
 
 When attempting to get the temperature from the thermostat, I just get the message:
