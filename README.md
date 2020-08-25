@@ -6,7 +6,7 @@ WARNING <<<<<<<, the company appears to have made a change to the thermostats so
 
 When attempting to get the temperature from the thermostat, I just get the message:
 
-I've removed the MAC address and changed the encrypt key a bit in the below example of the output I am receiving:
+I've removed the MAC address and changed the encrypt key in the below example of the output I am receiving:
 
 {"mac":"REMOVED","dev_type":775,"dev_ver":1,"encrypt":"0e9a778a1c16ac00c6355340d596e3ba"}
 
