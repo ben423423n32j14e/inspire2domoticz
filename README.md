@@ -10,7 +10,7 @@ I've removed the MAC address and changed the encrypt key a bit in the below exam
 
 {"mac":"REMOVED","dev_type":775,"dev_ver":1,"encrypt":"0e9a778a1c16ac00c6355340d596e3ba"}
 
-Attempts to control the thermostat appear to be ignored (I assume it now requires whatever encryption mechanism that has been introduced).
+Attempts to control the thermostat appear to be ignored (I assume it now requires whatever encryption mechanism that appears to have been introduced).
 
 <BR>
 <B>Instructions:</B>
